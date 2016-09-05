@@ -9,6 +9,9 @@ Release 1 September 5th 488c46e Released 0.0.1.160905-ae.
 Release 2 September 5th d4f7000 Released 0.0.1.160905-asc.
 
 Update 4 September 5th 7f51a62 Added "Lost USB" window. Non-functional.
+Update 5 September 5th 9a1f91c Added 3 failed attempts verification. Software is now capable of recognizing 3 failed log in attempts.
+                               Naming scheme for source code updates also introduced. See change log for more details.
+
 
 Planned Updates
 
