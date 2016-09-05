@@ -5,6 +5,9 @@ Update 1 September 5th a7bdaed Added primary files for the VS project.
 Update 2 September 5th ede52c2 Added necessary files for the UI concept to function properly.
 Update 3 September 5th 031f112 Added all of the files for the USB DECRYPTOR UI design concept application.
 
+Release 1 September 5th 488c46e Released 0.0.1.160905-ae.
+Release 2 September 5th d4f7000 Released 0.0.1.160905-asc.
+
 Planned Updates
 
 None.
