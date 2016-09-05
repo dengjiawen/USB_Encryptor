@@ -8,6 +8,8 @@ Update 3 September 5th 031f112 Added all of the files for the USB DECRYPTOR UI d
 Release 1 September 5th 488c46e Released 0.0.1.160905-ae.
 Release 2 September 5th d4f7000 Released 0.0.1.160905-asc.
 
+Update 4 September 5th 7f51a62 Added "Lost USB" window. Non-functional.
+
 Planned Updates
 
 None.
