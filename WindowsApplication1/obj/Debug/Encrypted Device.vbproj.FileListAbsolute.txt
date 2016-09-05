@@ -1,0 +1,22 @@
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Main_UI.resources
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Encrypted Device.vbproj.GenerateResource.Cache
+C:\Users\Fred Deng\Documents\Visual Studio 2015\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\Encrypted Device.vbprojResolveAssemblyReference.cache
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\Encrypted Device.vbprojResolveAssemblyReference.cache
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\Encrypted Device.vbproj.GenerateResource.Cache
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\bin\Debug\USB Encryption Software.exe.config
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\bin\Debug\USB Encryption Software.exe
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\bin\Debug\USB Encryption Software.pdb
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\bin\Debug\USB Encryption Software.xml
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB_Encryption.MainUI.resources
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB_Encryption.Resources.resources
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB Encryption Software.exe
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB Encryption Software.xml
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB Encryption Software.pdb
