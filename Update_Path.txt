@@ -1,0 +1,10 @@
+# Update Path
+This file shows the upgrade history for this software development, as well as planned future software updates.
+
+Update 1 September 5th a7bdaed Added primary files for the VS project.
+Update 2 September 5th ede52c2 Added necessary files for the UI concept to function properly.
+Update 3 September 5th 031f112 Added all of the files for the USB DECRYPTOR UI design concept application.
+
+Planned Updates
+
+None.
