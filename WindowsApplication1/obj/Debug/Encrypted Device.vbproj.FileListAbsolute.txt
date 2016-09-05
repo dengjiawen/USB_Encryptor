@@ -20,3 +20,4 @@ C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\Wind
 C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB Encryption Software.exe
 C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB Encryption Software.xml
 C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB Encryption Software.pdb
+C:\Users\Fred Deng\Source\Repos\USB-Encryption-Software\WindowsApplication1\WindowsApplication1\obj\Debug\USB_Encryption.Lost.resources

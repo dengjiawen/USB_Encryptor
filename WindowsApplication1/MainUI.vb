@@ -11,6 +11,8 @@
         KeyLabel.Hide()
         True_Access_Date.Hide()
         Auto_Decrypt.Hide()
+        Attemptno.Hide()
+        AttemptPH.Hide()
     End Sub
 
     Private Sub InitializationTimer_Tick(sender As Object, e As EventArgs) Handles InitializationTimer.Tick
@@ -61,10 +63,24 @@
 
     Private Sub True_Access_Data_Click(sender As Object, e As EventArgs) Handles True_Access_Date.Click
         If acct.Text <> "dengjiawen" Then
-            MessageBox.Show("You had entered an invalid account name or encryption key. Please verify the entered information and try again.", "Error")
+            If CounterTimer.Interval = 1 Then Attemptno.Show()
+            If CounterTimer.Interval = 1 Then AttemptPH.Show()
+            If CounterTimer.Interval < 3 Then Attemptno.Text = CounterTimer.Interval
+            If CounterTimer.Interval = 3 Then Attemptno.Text = "3"
+            If CounterTimer.Interval = 3 Then MessageBox.Show("unlockfailevent placeholder")
+            If CounterTimer.Interval = 2 Then MessageBox.Show("You had entered an invalid account name or encryption key. Please verify the entered information and try again. You have 1 attempt left.", "Error")
+            If CounterTimer.Interval = 1 Then MessageBox.Show("You had entered an invalid account name or encryption key. Please verify the entered information and try again. You have 2 attempts left.", "Error")
+            If CounterTimer.Interval < 3 Then CounterTimer.Interval = CounterTimer.Interval + 1
         Else
             If key.Text <> "dengjiawen" Then
-                MessageBox.Show("You had entered an invalid account name or encryption key. Please verify the entered information and try again.", "Error")
+                If CounterTimer.Interval = 1 Then Attemptno.Show()
+                If CounterTimer.Interval = 1 Then AttemptPH.Show()
+                If CounterTimer.Interval < 3 Then Attemptno.Text = CounterTimer.Interval
+                If CounterTimer.Interval = 3 Then Attemptno.Text = "3"
+                If CounterTimer.Interval = 3 Then MessageBox.Show("unlockfailevent placeholder")
+                If CounterTimer.Interval = 2 Then MessageBox.Show("You had entered an invalid account name or encryption key. Please verify the entered information and try again. You have 1 attempt left.", "Error")
+                If CounterTimer.Interval = 1 Then MessageBox.Show("You had entered an invalid account name or encryption key. Please verify the entered information and try again. You have 2 attempts left.", "Error")
+                If CounterTimer.Interval < 3 Then CounterTimer.Interval = CounterTimer.Interval + 1
             Else
                 MessageBox.Show("Test Successful<Test Code>")
             End If

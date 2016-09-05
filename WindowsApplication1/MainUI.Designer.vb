@@ -46,6 +46,8 @@ Partial Class MainUI
         Me.CounterTimer = New System.Windows.Forms.Timer(Me.components)
         Me.True_Access_Date = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.AttemptPH = New System.Windows.Forms.Label()
+        Me.Attemptno = New System.Windows.Forms.Label()
         CType(Me.USBIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -230,6 +232,7 @@ Partial Class MainUI
         '
         'CounterTimer
         '
+        Me.CounterTimer.Interval = 1
         '
         'True_Access_Date
         '
@@ -245,11 +248,31 @@ Partial Class MainUI
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(265, 313)
+        Me.Label1.Location = New System.Drawing.Point(264, 333)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(171, 13)
         Me.Label1.TabIndex = 20
         Me.Label1.Text = "Alpha Release 0.0.1.160905-alpha"
+        '
+        'AttemptPH
+        '
+        Me.AttemptPH.AutoSize = True
+        Me.AttemptPH.Font = New System.Drawing.Font("Myriad Pro Cond", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AttemptPH.Location = New System.Drawing.Point(254, 291)
+        Me.AttemptPH.Name = "AttemptPH"
+        Me.AttemptPH.Size = New System.Drawing.Size(224, 14)
+        Me.AttemptPH.TabIndex = 21
+        Me.AttemptPH.Text = "You had attempted to unlock the USB drive       Times"
+        '
+        'Attemptno
+        '
+        Me.Attemptno.AutoSize = True
+        Me.Attemptno.ForeColor = System.Drawing.Color.Red
+        Me.Attemptno.Location = New System.Drawing.Point(435, 291)
+        Me.Attemptno.Name = "Attemptno"
+        Me.Attemptno.Size = New System.Drawing.Size(13, 13)
+        Me.Attemptno.TabIndex = 22
+        Me.Attemptno.Text = "1"
         '
         'MainUI
         '
@@ -258,6 +281,8 @@ Partial Class MainUI
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(566, 368)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Attemptno)
+        Me.Controls.Add(Me.AttemptPH)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.True_Access_Date)
         Me.Controls.Add(Me.Auto_Decrypt)
@@ -314,4 +339,6 @@ Partial Class MainUI
     Friend WithEvents CounterTimer As Timer
     Friend WithEvents True_Access_Date As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents AttemptPH As Label
+    Friend WithEvents Attemptno As Label
 End Class
