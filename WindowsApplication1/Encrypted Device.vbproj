@@ -89,6 +89,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Lost.Designer.vb">
+      <DependentUpon>Lost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lost.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainUI.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Lost.resx">
+      <DependentUpon>Lost.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainUI.resx">
       <DependentUpon>MainUI.vb</DependentUpon>
     </EmbeddedResource>

@@ -79,5 +79,11 @@
     Private Sub CounterTimer_Tick(sender As Object, e As EventArgs) Handles CounterTimer.Tick
         'Timer is used purely for interval counting purposes.'
     End Sub
+
+    Private Sub Lost_USB_Click(sender As Object, e As EventArgs) Handles Lost_USB.Click
+        Lost.Show()
+
+
+    End Sub
 End Class
 
