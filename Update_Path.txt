@@ -25,6 +25,7 @@ Update 7 September 5th 4af126f
 01010011 01111001 01100100 01101110 01100101 01111001 00100000 01000011 01110010 01100001 01101001 01101110 00001101 00001010
 
 Update 8 September 6th f73aed2 Added UI design and partial coding for "Lost USB" page.
+Patch 0.1A September 6th null
 
 Planned Updates
 
