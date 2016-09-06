@@ -76,6 +76,11 @@
                             Process.Start("cmd", "/k shutdown -r -t 10 -c ""An unauthorized attempt to access an encrypted USB device had been detected. As a precaution, that USB device will now be disconnected, and your computer will now restart in 10 seconds.""")
                             InformationVerificationInterval.Enabled = False
                         Else
+                        'Sydney
+                        'a
+                        'Crain
+                        'a'
+                        'a'
                             SubSubTitle_Lost.Show()
                         End If
                 End If
