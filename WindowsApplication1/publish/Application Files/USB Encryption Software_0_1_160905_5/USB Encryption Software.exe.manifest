@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="USB Encryption Software.exe" version="0.1.160905.5" publicKeyToken="56677975b08eb9ac" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="USB Encryption Software" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="USB Encryption Software.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="USB Encryption Software.exe" size="63992">
+      <assemblyIdentity name="USB Encryption Software" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>uPpzl2FShl5AgJJ7Q2qZc5YIg5M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="USB Encryption Software.exe.config" size="156">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>L3I9DOWeEB/P2DpzjuMQmiwf8bM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-E29F7MV\Microsoft Sucks" issuerKeyHash="0a2a3a4f422659147ddb2781ff8b99192cc4ea55" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RJYizbz36/AQQ+DXEcXZAV9Tt1g=</DigestValue></Reference></SignedInfo><SignatureValue>ilHmG/5kzAdOaa44cSHQ6S8xY/dmXrm6h2K5dNixAocEC+qwa+QXaYsBoF4PH9fPltMlaz/m2ERPKzi7R0/rmg13W2rMuG/7/hHY3wnf+iWwfZG/zgU9B4EU+23hHZ7BkiE1iy47mj+MVxWJMKjvEG0sURFgPx3esZY8Y8vbjbQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>j5vNxgjrqAoOumN49eQtrYWc/X/ZpU69YzMmd5w8b/JAjb7R3hLScaL97xuKQfl5gDjnRj28grD24MS8WlEhh5pBoLQ9LnVAiP/+Ujv+NlleUNE+veWvsZXHSwmQyD43ciBgSxr+0QrmLTrzwZXXulQKiyVSRhdYAbgWzgDQP70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="58b7535f01d9c511d7e04310f0ebf7bccd229644" Description="" Url=""><as:assemblyIdentity name="USB Encryption Software.exe" version="0.1.160905.5" publicKeyToken="56677975b08eb9ac" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E29F7MV\Microsoft Sucks</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+bvVyi9leW+vwS3ADXkQjzXVz1A=</DigestValue></Reference></SignedInfo><SignatureValue>K52fuS2PBPkeJ3vuxxPhLAuyISLRgDBhcR/Gd0QiJEwKJG6Bt0rCCe+r9JJl3JjC9eV15lDUndyOzQYhVoFPPB93wp+FUkvmmkvYdB847hwWT+Z7iT0EcGv2rEEowgNZ8CY34bN80yArxIlDX6xelK7jO5rZNmZV5TAXUKrQYDA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>j5vNxgjrqAoOumN49eQtrYWc/X/ZpU69YzMmd5w8b/JAjb7R3hLScaL97xuKQfl5gDjnRj28grD24MS8WlEhh5pBoLQ9LnVAiP/+Ujv+NlleUNE+veWvsZXHSwmQyD43ciBgSxr+0QrmLTrzwZXXulQKiyVSRhdYAbgWzgDQP70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICFTCCAX6gAwIBAgIQe0JeXcwz4JlNtmBIO91zYzANBgkqhkiG9w0BAQUFADBJMUcwRQYDVQQDHj4ARABFAFMASwBUAE8AUAAtAEUAMgA5AEYANwBNAFYAXABNAGkAYwByAG8AcwBvAGYAdAAgAFMAdQBjAGsAczAeFw0xNjA5MDYwMTIwMjFaFw0xNzA5MDYwNzIwMjFaMEkxRzBFBgNVBAMePgBEAEUAUwBLAFQATwBQAC0ARQAyADkARgA3AE0AVgBcAE0AaQBjAHIAbwBzAG8AZgB0ACAAUwB1AGMAawBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCPm83GCOuoCg66Y3j15C2thZz9f9mlTr1jMyZ3nDxv8kCNvtHeEtJxov3vG4pB+XmAOOdGPbyCsPbgxLxaUSGHmkGgtD0udUCI//5SO/42WV5Q0T695a+xlcdLCZDIPjdyIGBLGv7RCuYtOvPBlde6VAqLJVJGF1gBuBbOANA/vQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAIUNXNi0ah4LnxIQ90xKiR9hNzuYOd0tZksHDcOnAVxV8+IDBfEYeoDgpriPGd5Aibw8OvUcoxaO0V4L8iHP8LDFkOTDoen+BS6QJ5HfGxn3ogdFah8z6J2yVZ/plZ6rSqLsvMuUBPSkqaJz9hfHB7AG9vbVKsEG5tMen5U6Qh8I</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

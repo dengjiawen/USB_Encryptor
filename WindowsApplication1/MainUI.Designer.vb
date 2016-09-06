@@ -252,7 +252,7 @@ Partial Class MainUI
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(173, 13)
         Me.Label1.TabIndex = 20
-        Me.Label1.Text = "Alpha Release 0.0.2.160905-ae/sc"
+        Me.Label1.Text = "Alpha Release 0.0.1.160906-ae/sc"
         '
         'AttemptPH
         '

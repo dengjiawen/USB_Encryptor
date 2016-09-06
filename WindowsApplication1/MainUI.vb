@@ -26,12 +26,21 @@ Public Class MainUI
         Auto_Decrypt.Hide()
         Attemptno.Hide()
         AttemptPH.Hide()
+
     End Sub
+
+
+    Private Sub frmcalculator_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            Call True_Access_Data_Click(sender, e)
+        End If
+    End Sub
+
 
     Private Sub InitializationTimer_Tick(sender As Object, e As EventArgs) Handles InitializationTimer.Tick
 
         'This timer setting controls which text will appear during different stages of initialization.'
-        'For example, when the loading is 50% done, the original "Analyzing Encrypted Files" will change to "Initializing".'
+        'For example, when the loading is 50% done, the original "Analyzing Encrypted Files" will change to "Initializng".'
         'This, along with the progress bar which is also controlled by this timer entity,'
         'provides no additional function, and is only for cosmetic purposes.'
 
