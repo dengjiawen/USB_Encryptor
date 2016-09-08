@@ -27,6 +27,8 @@ Update 7 September 5th 4af126f
 Update 8 September 6th f73aed2 Added UI design and partial coding for "Lost USB" page.
 Patch 0.1A September 6th null
 
+# NO MORE UPDATES WILL BE RECORDED ON THIS FILE -- SEE COMMIT HISTORY FOR UPDATE LOGS AND MORE DETAILS.
+
 Planned Updates
 
 None.
