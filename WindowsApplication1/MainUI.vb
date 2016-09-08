@@ -128,7 +128,9 @@ Public Class MainUI
                 If CounterTimer.Interval = 1 Then MessageBox.Show("You had entered an invalid account name or encryption key. Please verify the entered information and try again. You have 2 attempts left.", "Error")
                 If CounterTimer.Interval < 3 Then CounterTimer.Interval = CounterTimer.Interval + 1
             Else
-                MessageBox.Show("Test Successful<Test Code>")
+                Me.Hide()
+                DecryptionProcess.Show()
+
             End If
         End If
 

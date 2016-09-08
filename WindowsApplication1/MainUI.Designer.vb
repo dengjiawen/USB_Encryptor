@@ -48,7 +48,13 @@ Partial Class MainUI
         Me.Label1 = New System.Windows.Forms.Label()
         Me.AttemptPH = New System.Windows.Forms.Label()
         Me.Attemptno = New System.Windows.Forms.Label()
+        Me.ErrorProvider = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.EventLog = New System.Diagnostics.EventLog()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Lang = New System.Windows.Forms.Label()
         CType(Me.USBIcon, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EventLog, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Title_Encrypt
@@ -248,11 +254,11 @@ Partial Class MainUI
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(264, 333)
+        Me.Label1.Location = New System.Drawing.Point(245, 329)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(208, 13)
+        Me.Label1.Size = New System.Drawing.Size(246, 13)
         Me.Label1.TabIndex = 20
-        Me.Label1.Text = "Alpha Release 0.0.1.160906-ae patch0.1a"
+        Me.Label1.Text = "Developer Release 0.0.2.160906-ae/sc patch0.1b"
         '
         'AttemptPH
         '
@@ -274,6 +280,36 @@ Partial Class MainUI
         Me.Attemptno.TabIndex = 22
         Me.Attemptno.Text = "1"
         '
+        'ErrorProvider
+        '
+        Me.ErrorProvider.ContainerControl = Me
+        Me.ErrorProvider.Icon = CType(resources.GetObject("ErrorProvider.Icon"), System.Drawing.Icon)
+        '
+        'EventLog
+        '
+        Me.EventLog.Log = "Application"
+        Me.EventLog.SynchronizingObject = Me
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"English (Canadian)", "English (US)", "English (UK)", "English (AU)", "English (General)"})
+        Me.ComboBox1.Location = New System.Drawing.Point(84, 326)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(113, 21)
+        Me.ComboBox1.TabIndex = 23
+        Me.ComboBox1.Text = "English (Canadian)"
+        '
+        'Lang
+        '
+        Me.Lang.AutoSize = True
+        Me.Lang.Font = New System.Drawing.Font("Myriad Pro Cond", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lang.Location = New System.Drawing.Point(24, 326)
+        Me.Lang.Name = "Lang"
+        Me.Lang.Size = New System.Drawing.Size(57, 19)
+        Me.Lang.TabIndex = 24
+        Me.Lang.Text = "Language"
+        '
         'MainUI
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -281,6 +317,8 @@ Partial Class MainUI
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(566, 368)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Lang)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Attemptno)
         Me.Controls.Add(Me.AttemptPH)
         Me.Controls.Add(Me.Label1)
@@ -312,6 +350,8 @@ Partial Class MainUI
         Me.Text = "Encrypted Device"
         Me.TopMost = True
         CType(Me.USBIcon, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EventLog, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -341,4 +381,8 @@ Partial Class MainUI
     Friend WithEvents Label1 As Label
     Friend WithEvents AttemptPH As Label
     Friend WithEvents Attemptno As Label
+    Friend WithEvents ErrorProvider As ErrorProvider
+    Friend WithEvents EventLog As EventLog
+    Friend WithEvents Lang As Label
+    Friend WithEvents ComboBox1 As ComboBox
 End Class

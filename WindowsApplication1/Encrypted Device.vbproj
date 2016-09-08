@@ -25,9 +25,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en-CA</TargetCulture>
     <ProductName>USB Encryptor</ProductName>
     <PublisherName>Sydney Crain Software LLC.</PublisherName>
-    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>0.1.160905.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -85,6 +86,9 @@
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>access.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -112,6 +116,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Decryption.Designer.vb">
+      <DependentUpon>Decryption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Decryption.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Lost.Designer.vb">
       <DependentUpon>Lost.vb</DependentUpon>
     </Compile>
@@ -142,6 +152,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Decryption.resx">
+      <DependentUpon>Decryption.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lost.resx">
       <DependentUpon>Lost.vb</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +188,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="access.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

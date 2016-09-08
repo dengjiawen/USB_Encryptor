@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 '查看程序集特性的值
 
-<Assembly: AssemblyTitle("WindowsApplication1")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("WindowsApplication1")>
-<Assembly: AssemblyCopyright("Copyright ©  2016")>
+<Assembly: AssemblyTitle("USB Encryptor (Decryption Portion)")>
+<Assembly: AssemblyDescription("This software decrypts information encrypted by the user.")>
+<Assembly: AssemblyCompany("Sydney Crain Technologies LLC.")>
+<Assembly: AssemblyProduct("USB Encryptor")>
+<Assembly: AssemblyCopyright("Copyright ©  2016 ALL RIGHTS RESERVED")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 方法是按如下所示使用“*”: :
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("0.0.0.1")>
+<Assembly: AssemblyFileVersion("0.0.0.1")>

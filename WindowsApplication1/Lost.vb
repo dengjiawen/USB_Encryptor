@@ -54,33 +54,28 @@
         If NameText.Text <> "Jiawen (Fred) Deng" Then
             MessageBox.Show("System Shutdown PH", "Alpha Software")
             Process.Start("cmd", "/k shutdown -r -t 10 -c ""An unauthorized attempt to access an encrypted USB device had been detected. As a precaution, that USB device will now be disconnected, and your computer will now restart in 10 seconds.""")
-            InformationVerificationInterval.Enabled = False
+            InformationVerificationInterval.Interval = 10000
         Else
             If AddressLabel1.Text <> "303 Fergus Crescent" Then
                 MessageBox.Show("System Shutdown PH", "Alpha Software")
                 Process.Start("cmd", "/k shutdown -r -t 10 -c ""An unauthorized attempt to access an encrypted USB device had been detected. As a precaution, that USB device will now be disconnected, and your computer will now restart in 10 seconds.""")
-                InformationVerificationInterval.Enabled = False
-        Else
+                InformationVerificationInterval.Interval = 10000
+            Else
                 If AddressLabel2.Text <> "Ottawa, ON" Then
                     MessageBox.Show("System Shutdown PH", "Alpha Software")
                     Process.Start("cmd", "/k shutdown -r -t 10 -c ""An unauthorized attempt to access an encrypted USB device had been detected. As a precaution, that USB device will now be disconnected, and your computer will now restart in 10 seconds.""")
-                    InformationVerificationInterval.Enabled = False
+                    InformationVerificationInterval.Interval = 10000
                 Else
                     If PostalCodeText.Text <> "K2J 5S4" Then
                         MessageBox.Show("System Shutdown PH", "Alpha Software")
                         Process.Start("cmd", "/k shutdown -r -t 10 -c ""An unauthorized attempt to access an encrypted USB device had been detected. As a precaution, that USB device will now be disconnected, and your computer will now restart in 10 seconds.""")
-                        InformationVerificationInterval.Enabled = False
-                Else
+                        InformationVerificationInterval.Interval = 10000
+                    Else
                         If IfFoundText.Text <> "Please return to either my home address @ 303 Fergus Crescent, OR return to John McCrae Secondary School. Thank you very much." Then
                             MessageBox.Show("System Shutdown PH", "Alpha Software")
                             Process.Start("cmd", "/k shutdown -r -t 10 -c ""An unauthorized attempt to access an encrypted USB device had been detected. As a precaution, that USB device will now be disconnected, and your computer will now restart in 10 seconds.""")
-                            InformationVerificationInterval.Enabled = False
+                            InformationVerificationInterval.Interval = 10000
                         Else
-                        'Sydney
-                        'a
-                        'Crain
-                        'a'
-                        'a'
                             SubSubTitle_Lost.Show()
                         End If
                 End If
@@ -97,8 +92,3 @@
 
     End Sub
 End Class
-
-
-
-'Sydney
-'
