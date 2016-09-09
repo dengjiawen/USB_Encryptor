@@ -257,9 +257,9 @@ Partial Class MainUI
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(245, 329)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(246, 13)
+        Me.Label1.Size = New System.Drawing.Size(216, 13)
         Me.Label1.TabIndex = 20
-        Me.Label1.Text = "Developer Release 0.0.2.160906-ae/sc patch0.1b"
+        Me.Label1.Text = "Internal Release 0.0.1.160909-ae patch0.1c"
         '
         'AttemptPH
         '
