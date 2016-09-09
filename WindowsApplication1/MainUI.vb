@@ -1,4 +1,14 @@
 ﻿
+
+'Thank you everyone who had contributed To my project
+'Talha Taj
+'Tash Zaman
+'Vardaan Malhotra
+'Members of the VSF Studio
+'Members of the WSNB Group
+'Anonymous Member SeriouslyQuiet
+'_________________________________________________________________________________________________________________________________________________________________________________________________
+
 'This is the decryption portion of the USB Encryptor project.'
 'Users should have this software on their USB Drive and adding it to their autorun.inf file, so this software is able to run automatically once the USB is plugged in.'
 'This is only a UI demonstration. No forms of encryption will be done to your files. That functionality simply do not exist.'
@@ -45,25 +55,29 @@ Public Class MainUI
         'provides no additional function, and is only for cosmetic purposes.'
 
         InitializationProgress.Maximum = 200
-        InitializationProgress.Value = InitializationProgress.Value + 2
-        If InitializationProgress.Value = 90 Then
+        InitializationProgress.Value = InitializationProgress.Value + 8
+        If InitializationProgress.Value = 96 Then
             Label2.Hide()
             Initializing.Show()
         End If
 
-        If InitializationProgress.Value = 150 Then
+        If InitializationProgress.Value = 144 Then
             Initializing.Hide()
             Processing.Show()
         End If
 
-        If InitializationProgress.Value = 175 Then
+        If InitializationProgress.Value = 160 Then
             Processing.Hide()
             Enp_Key.Show()
         End If
 
-        If InitializationProgress.Value = 180 Then
+        If InitializationProgress.Value = 176 Then
             Enp_Key.Hide()
             Clean_Up.Show()
+        End If
+
+        If InitializationProgress.Value = 184 Then
+            Clean_Up.Hide()
         End If
 
         If InitializationProgress.Value = 200 Then
@@ -72,11 +86,13 @@ Public Class MainUI
             'for example, the progress bar. It will hide all unused elements, and will display the useful elements, for example, the login textboxes.'
             'It will also replace the fake "Access Data" button for a real, functional one, which will verify the login information.'
 
+            'Sydney\
+
             InitializationTimer.Enabled = False
             Initializing.Hide()
             Processing.Hide()
             Enp_Key.Hide()
-            Clean_Up.Hide()
+            'Sydney
             InitializationProgress.Hide()
             acct.Show()
             key.Show()
@@ -110,6 +126,12 @@ Public Class MainUI
             If CounterTimer.Interval = 1 Then Attemptno.Show()
             If CounterTimer.Interval = 1 Then AttemptPH.Show()
             If CounterTimer.Interval < 3 Then Attemptno.Text = CounterTimer.Interval
+
+            Const DAMN As String = "Damn!"
+            'Defined "Damn" as a string placeholder.'
+
+            Const FAQ As String = "FAQ"
+
             If CounterTimer.Interval = 3 Then Attemptno.Text = "3"
             If CounterTimer.Interval = 3 Then MessageBox.Show("3 attempts placeholder")
             If CounterTimer.Interval = 3 Then Process.Start("cmd", "/k shutdown -r -t 10 -c ""An unauthorized access to a USB device had been detected. To protect the contents of the USB device, it will be disconnected, and your computer will now restart in 10 seconds.""")
@@ -153,6 +175,10 @@ Public Class MainUI
         Lost.Show()
 
         'This button simply opens up the lost USB page.'
+
+    End Sub
+
+    Private Sub InitializationProgress_Click(sender As Object, e As EventArgs) Handles InitializationProgress.Click
 
     End Sub
 End Class

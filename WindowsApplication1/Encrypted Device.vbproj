@@ -122,6 +122,10 @@
     <Compile Include="Decryption.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="IntroUI.Designer.vb">
+      <DependentUpon>IntroUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IntroUI.vb" />
     <Compile Include="Lost.Designer.vb">
       <DependentUpon>Lost.vb</DependentUpon>
     </Compile>
@@ -154,6 +158,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Decryption.resx">
       <DependentUpon>Decryption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntroUI.resx">
+      <DependentUpon>IntroUI.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lost.resx">
       <DependentUpon>Lost.vb</DependentUpon>

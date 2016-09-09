@@ -192,6 +192,7 @@ Partial Class MainUI
         '
         Me.key.Location = New System.Drawing.Point(305, 167)
         Me.key.Name = "key"
+        Me.key.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.key.Size = New System.Drawing.Size(170, 20)
         Me.key.TabIndex = 13
         '
